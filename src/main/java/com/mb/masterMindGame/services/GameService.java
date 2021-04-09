@@ -25,8 +25,7 @@ public class GameService {
             BufferedReader in = new BufferedReader(new InputStreamReader(connection.getInputStream()));
 
             readLine = in.readLine();
-            
-            // StringBuffer res = new StringBuffer();
+
             String[] res = new String[num];
             int i = 0;
             while(readLine != null){
