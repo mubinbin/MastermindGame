@@ -25,15 +25,13 @@ const onClickHandler = () => {
         return;
     }
 
+    createLog(result, attempts);
     
     if(attempts === 10){
         alert(`Sorry, You Did Not Win. You final input is: ${result[0]}. But the answer is: ${randNums}`)
         attempts = 0;
         location.reload();
     }
-
-    createLog(result, attempts);
-
     return;
 }
 
