@@ -50,7 +50,6 @@ public class GameController {
 		}
 		
 		model.addAttribute("randNums", Arrays.toString(randNums));
-//		model.addAttribute("randNums", "[3, 1, 3, 1]");
 		model.addAttribute("attempts", attempts);
 		model.addAttribute("num", num);
 		model.addAttribute("difficulty", difficulty);
