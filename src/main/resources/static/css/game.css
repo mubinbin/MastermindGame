@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inputNums{
+	padding: 0px 5px;
+    width: 35px;
+    font-size: 1.1rem;
+}
+
+#mainContainerGame{
+    width: 50%;
+    height: 100vh;
+	margin: auto;
+	padding: 20px;
+}
+
+#top{
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+#top h1{
+    visibility: hidden;
+}
+
+#back{
+    margin-bottom: 15px;
+}
+
+.inputDiv{
+    margin: 5px 0;
+    font-size: 1.1rem;
+}
+
+#btn button{
+    padding: 5px;
+    margin: 20px 0;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    color: rgb(45, 67, 109);
+    background-color: rgb(198, 198, 252);
+}
+
+#log{
+    border: solid 2px gray;
+    height: 30%;
+    padding: 10px;
+    overflow: auto;
+}
