@@ -17,6 +17,8 @@ If you lost, the page will give an alert, telling that you did not win and showi
 
 If you want to play with different difficulty level, simply click the "**Back to Homepage**" and select another level.
 
+If you just want to test the game funcionalities instead of spending too much time to play with it, simply open the "game.css" file (located at "**~\MastermindGame\src\main\resources\static\css\game.css**") and change line 26 from "**visibility: hidden;**" to "**visibility: visible;**". Then you can see the answer at the game page.
+
 ## Thought Process and Code Structure ##
 ### Backend ###
 #### 1. Service Class ####
