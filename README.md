@@ -6,7 +6,7 @@ I built the game as a web app by using Spring Boot. I used Java to build the bac
 ## How to Run the App ##
 Download the app with the command "**git clone https://github.com/mubinbin/MastermindGame.git**".
 
-If you do not have JDK in your computer, please go to https://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/index.html to install and set up environment variable accordingly. Any versions above **Java SE 11 (including Java SE 11)** should be good to run the project. Reboot you computer after finishing the setup. 
+If you do not have JDK in your computer, please go to https://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/index.html to install and set up environment variable accordingly. Any versions above **Java SE 11 (including Java SE 11)** should be good to run this project. Reboot you computer after finishing the setup. 
 
 After rebooting, use the Shell or Command Prompt cd into the "**MastermindGame**" directory. And then run "**./mvnw spring-boot:run**" in Shell (or "**mvnw spring-boot:run**" in Windows Command Prompt). Make sure you are connecting the internet, since the command will check if you computer has Maven or not. If you don't, it will automatically download it for you. When the Spring Boot project is up and running, type in **http://localhost:8080/** in your web browser and you should be able to use the app. **Please connecting the internet all the time when using the app.**
 
