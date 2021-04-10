@@ -1,7 +1,7 @@
 # MastermindGame
 
 ## Introduction ##
-I built the game as a web app by using Spring Boot. I used Java to build the backend (setting difficulty level and getting the random number combination). For the frontend, I use JSP page with some simple css styling as well as a JavaScript file to handle the game implementation logic (comparing the result, reducing the number of attempt, and checking if the user win).
+I built the game as a web app by using Spring Boot. I used Java to build the backend (setting difficulty level and getting the random number combination). For the frontend, I use JSP page with some simple css styling as well as a JavaScript file to handle the game implementation logic (checking the result, reducing the number of attempt, and checking if the user win).
 
 ## How to Run the App ##
 Download the app with the command "git clone https://github.com/mubinbin/MastermindGame.git".
