@@ -13,11 +13,11 @@ After rebooting, use the Shell or Command Prompt cd into the "**MastermindGame**
 ## How to Play ##
 You may select a difficuty level (Easy, Intermediate, or Hard) at the home page to start the game. Intermediate level will have 4 numbers to guess just as the default requirement of the coding challenge, while Easy level will have 3 numbers and Hard level will have 5 numbers, respectively. There will be instructions telling you more about the rule of the game and what the result will be looked like. If you enter an invalid number (ex. leave the input box blank or enter a number outside the range from 0 to 7), there will be an alert poping up and prevent the game to move forward when you click the "**Check Your Answer**" button. If your input is valid, after clicking the "**Check Your Answer**" button, there will be a log showing details of your result and the remaining attempts in the bottom box of the page.
 
-If you lost, the page will give an alert, telling that you did not win and showing the correct answer. After you click "**OK**" on the alert, the page will refresh and will start a new game at the same difficulty level. If you won, similarly, there will be an alert showing the correct answer. And it will also refresh the page and restart the game at the same difficulty level after clicking the "**OK**" on the alert.
+If you lost, the page will give an alert, telling that you did not win and showing the correct answer. After you click "**OK**" on the alert, the page will refresh and start a new game at the same difficulty level. If you won, similarly, there will be an alert showing the correct answer. And it will also refresh the page and restart the game at the same difficulty level after clicking the "**OK**".
 
-If you want to play with different difficulty level, simply click the "**Back to Homepage**" and select another level.
+If you want to play with different difficulty level, simply click the "**Back to Homepage**" link and select another level.
 
-If you just want to test the game funcionalities instead of spending too much time to play with it, simply open the "game.css" file (located at "**~\MastermindGame\src\main\resources\static\css\game.css**") and change line 26 from "**visibility: hidden;**" to "**visibility: visible;**". Then you can see the answer at the game page.
+If you just want to test the game funcionalities instead of spending too much time on figuring out the answer, you may open the "game.css" file (located at "**~\MastermindGame\src\main\resources\static\css\game.css**") and change line 26 from "**visibility: hidden;**" to "**visibility: visible;**". Then you can see the answer at the very top of the game page.
 
 ## Thought Process and Code Structure ##
 ### Backend ###
